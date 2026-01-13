@@ -38,6 +38,7 @@ def C04():
 def C05():
     execute_tf_function()
 
+# 第六节：自动微分
 def C06():
     automatic_differentiation_demo()
 
