@@ -1,0 +1,6 @@
+# TF1项目用的
+tensorboard --logdir=‘./logs/tf1/xxx’
+
+# TF2项目用的 （TF1项目的文件夹在深一层文件夹）
+tensorboard --logdir=‘../logs/tf2/xxx’
+

@@ -5,6 +5,7 @@ from C01_HelloTF import print_tf_version
 from C02_tonser import *
 from C03_Variables import *
 from C04_eager_execution import eager_execution_demo
+from C05_jst_tff import execute_tf_function
 
 # 第一节：Hello TensorFlow
 def C01():
@@ -33,7 +34,9 @@ def C04():
     eager_execution_demo()
 
 # 第五节：计算图和tf.function
+def C05():
+    execute_tf_function()
 
 if __name__ == '__main__':
     # 要玩那个就调用哪个
-    C03()
+    C05()

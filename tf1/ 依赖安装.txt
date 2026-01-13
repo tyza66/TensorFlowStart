@@ -1,5 +1,7 @@
 # 安装 TensorFlow 1.x 版本
-pip install tensorflow==1.8 -i https://pypi.douban.com/simple
+uv pip install tensorflow==1.8 \
+  -i https://pypi.tuna.tsinghua.edu.cn/simple \
+  --trusted-host pypi.tuna.tsinghua.edu.cn
 
 #对于 1.15 及更早版本，CPU 和 GPU 软件包是分开的：
 pip install tensorflow==1.15      # CPU
