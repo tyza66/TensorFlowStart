@@ -42,6 +42,9 @@ def C05():
 def C06():
     automatic_differentiation_demo()
 
+# 第七节：使用 Keras.Model 构建模型
+# 第八节：Sequential 顺序模型
+
 if __name__ == '__main__':
     # 要玩那个就调用哪个
     C06() # 从C06后半段在jupyter里玩起
