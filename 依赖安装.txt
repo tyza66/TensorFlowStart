@@ -1,9 +1,19 @@
-# 安装cpu版本的tensorflow  macos版从 2.13才开始有
+# 我用的是python3.9版本 自己学的时候选择相近版本
+
+# 安装cpu版本的tensorflow 注意MacOS版从 2.13才开始有可以拉取到的轮子
 uv pip install tensorflow==2.13.0 \
   -i https://mirrors.aliyun.com/pypi/simple \
   --trusted-host mirrors.aliyun.com
 
 # 解决 OpenSSL 相关问题
 uv pip install "urllib3<2"
+
+# 安装matplotlib
+uv pip install matplotlib -i https://pypi.tuna.tsinghua.edu.cn/simple
+
+# 安装 jupyter
+uv pip install jupyter -i https://pypi.tuna.tsinghua.edu.cn/simple
+
+
 
 

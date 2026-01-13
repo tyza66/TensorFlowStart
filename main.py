@@ -6,6 +6,7 @@ from C02_tonser import *
 from C03_Variables import *
 from C04_eager_execution import eager_execution_demo
 from C05_jst_tff import execute_tf_function
+from C06_automatic import automatic_differentiation_demo
 
 # 第一节：Hello TensorFlow
 def C01():
@@ -37,6 +38,9 @@ def C04():
 def C05():
     execute_tf_function()
 
+def C06():
+    automatic_differentiation_demo()
+
 if __name__ == '__main__':
     # 要玩那个就调用哪个
-    C05()
+    C06() # 从C06后半段在jupyter里玩起
