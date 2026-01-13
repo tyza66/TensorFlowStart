@@ -43,7 +43,7 @@ def C06():
     automatic_differentiation_demo()
 
 # 第七节：使用 Keras.Model 构建模型
-# 第八节：Sequential 顺序模型
+# 第八节：Sequential顺序模型
 # 第九节：实现线性回归问题
 # 第十节：实现逻辑回归问题
 # 第十一节：实现分类问题
