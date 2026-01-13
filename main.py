@@ -1,16 +1,39 @@
-# This is a sample Python script.
+# By tyza66
+# https://github.com/tyza66
+#
+from C01_HelloTF import print_tf_version
+from C02_tonser import *
+from C03_Variables import *
+from C04_eager_execution import eager_execution_demo
 
-# Press ⌃R to execute it or replace it with your code.
-# Press Double ⇧ to search everywhere for classes, files, tool windows, actions, and settings.
+# 第一节：Hello TensorFlow
+def C01():
+    print_tf_version()
 
+# 第二节：张量
+def C02():
+    create_scalar_tensor()
+    create_tensor_from_list()
+    create_matrix_tensor()
+    create_3d_tensor()
+    create_tensor_from_numpy()
+    create_special_tensors()
+    tensor_properties()
+    tensor_type_conversion()
+    tensor_math_operations()
+    tensor_shape_operations()
 
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press ⌘F8 to toggle the breakpoint.
+# 第三节：Variables
+def C03():
+    create_variable()
+    create_2d_variable()
 
+# 第四节：立即执行模式
+def C04():
+    eager_execution_demo()
 
-# Press the green button in the gutter to run the script.
+# 第五节：计算图和tf.function
+
 if __name__ == '__main__':
-    print_hi('PyCharm')
-
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+    # 要玩那个就调用哪个
+    C03()

@@ -1,0 +1,63 @@
+# uv & Python gitignore template
+# --------------- uv ---------------
+.venv/
+venv/
+.uv/
+uv.lock          # 如想锁版本就删掉这一行；否则忽略
+
+# --------------- Python ---------------
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.dylib
+*.dll
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+parts/
+var/
+wheels/
+pip-wheel-metadata/
+*.whl
+
+# --------------- Testing ---------------
+.coverage
+.pytest_cache/
+htmlcov/
+.tox/
+.hypothesis/
+nosetests.xml
+coverage.xml
+*.cover
+
+# --------------- Jupyter ---------------
+.ipynb_checkpoints
+*.nbconvert.ipynb
+
+# --------------- Environment ---------------
+.env
+.venv.bak
+pip-log.txt
+pip-delete-this-directory.txt
+
+# --------------- IDEs ---------------
+# VS Code
+.vscode/
+*.code-workspace
+
+# PyCharm / IntelliJ
+.idea/
+*.iml
+*.iws
+out/
+.DS_Store        # macOS 系统文件
+
+# --------------- Logs ---------------
+*.log
+logs/
+
+# --------------- Optional lock files ---------------
+# 如果你“不”想提交 uv.lock，保留上面那一行即可；

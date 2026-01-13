@@ -1,0 +1,9 @@
+# 安装cpu版本的tensorflow  macos版从 2.13才开始有
+uv pip install tensorflow==2.13.0 \
+  -i https://mirrors.aliyun.com/pypi/simple \
+  --trusted-host mirrors.aliyun.com
+
+# 解决 OpenSSL 相关问题
+uv pip install "urllib3<2"
+
+
