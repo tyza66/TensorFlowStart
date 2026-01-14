@@ -17,6 +17,9 @@ uv pip install jupyter -i https://pypi.tuna.tsinghua.edu.cn/simple
 # 为了用 sklearn 的数据集
 uv pip install scikit-learn -i http://mirrors.aliyun.com/pypi/simple/ --trusted-host mirrors.aliyun.com
 
+# 查看 TensorBoard
+tensorboard --logdir=logs/tf2fit
+
 
 
 
