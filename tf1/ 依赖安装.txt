@@ -1,7 +1,7 @@
 # 必须使用 py3.6 一下临近版本
 
 # 安装 TensorFlow 1.x 版本
-uv pip install tensorflow==1.8 \
+uv pip install tensorflow==1.9 \
   -i https://pypi.tuna.tsinghua.edu.cn/simple \
   --trusted-host pypi.tuna.tsinghua.edu.cn
 
